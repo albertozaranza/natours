@@ -1,0 +1,14 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/albertozaranza/natours.git",
+  "author": "Alberto Zaranza <albertozaranza@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
